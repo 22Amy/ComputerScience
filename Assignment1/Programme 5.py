@@ -1,0 +1,8 @@
+team=input('Enter the name of your team:')
+wins=input('Enter the number of wins:')
+wins=int(wins)
+draws=input('Enter the number of draws:')
+draws=int(draws)
+losses=input('Enter the number of losses:')
+losses=int(losses)
+print('The total points for',team,'so far is:',wins*3 +draws*1 + losses*0)

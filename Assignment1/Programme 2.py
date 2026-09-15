@@ -1,0 +1,5 @@
+integer1= input('Enter a number')
+integer1=int(integer1)
+integer2=input('Enter another number:')
+integer2=int(integer2)
+print('The sum of',integer1,'and',integer2,'is:',integer1+integer2)
